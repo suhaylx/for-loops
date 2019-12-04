@@ -14,3 +14,9 @@ for dict_items in user.items():
 
 for keys, item_s in user.items():
   print(keys,item_s)
+
+#There is still other ways to iterate
+for example_value in user.items():
+  dict_keys, dict_values = example_value
+#as example_value value is typle we assign values to another two value
+  print(dict_keys, dict_values)
